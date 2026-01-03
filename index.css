@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+} 
+
+.content {
+    width: 600px;
+    margin: 0 auto;
+    font-family: "Smythe", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    background-image: url("images/burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    min-height: 167px;
+    padding-left: 46px;
+    font-size: 18px;
+    color: #fff;
+}
+
+h1, h2, p {
+    margin: 0;
+}
+
+.menu {
+    font-size: 28px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 45px 0 45px 0;
+}
+
+.emoji {
+    width: 100px;
+    font-size: 48px;
+}
+
+.desc {
+    width: 100%;
+}
+
+
+.ingredients {
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.price {
+    font-size: 20px;
+    margin-top: 6px;
+}
+
+
+.circle-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    font-weight: 200;
+    padding: 0 0 2px 2px;
+
+}
+
+.order {
+    font-size: 28px;
+    padding: 23px 0 23px 0;
+}
+
+.order-title {
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.remove-button {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #bbbbbb;
+    padding-left: 10px;
+}
+
+.order-item {
+    padding: 3px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* .total-price-text {
+    width: 50%;
+}
+
+.total-price {
+    width: 50%;
+} */
+
+
+
+.total-price-container {
+    border-top: 2px solid #000;
+    padding-top: 23px;
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.total-price {
+    font-size: 20px
+}
+
+.order-section {
+    padding: 0 46px;
+}
+
+.complete-order-btn {
+    background-color: #16DB99;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 38px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 5px 5px 250px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.pay-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #16DB99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.success-message {
+    text-align: center;
+    background-color: #ECFDF5;
+    padding: 50px 0;  
+}
